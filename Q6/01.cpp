@@ -24,6 +24,8 @@ int main()
         }
     }
 
-    cout << flag;
+    if(flag) cout<<"true";
+    else cout<<"false";
+        
     return 0;
 }

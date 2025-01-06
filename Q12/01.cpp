@@ -16,19 +16,16 @@ int main()
         v.push_back(x);
     }
 
-    for(int i=0; i<v.size(); i++){
-        cout << v[i] << " ";
-    }
-
-    cout << endl;
-
     make_heap(v.begin(), v.end(), greater<int>());
-    pop_heap(v.begin(), v.end(), greater<int>());
 
-    
+    int k;
+    cin >> k;
 
-    for(int i=0; i<v.size(); i++){
-        cout << v[i] << " ";
+    for(int i=0; i<k-1; i++){
+        pop_heap(v.begin(), v.end(), greater<int>());
+        v.pop_back();
     }
+
+    cout << "The " << k << " fastest time is: " << v.front() << endl;
     return 0;
 }

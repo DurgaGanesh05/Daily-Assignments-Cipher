@@ -26,9 +26,9 @@ int main() {
     cin >> s;
 
     if (isValid(s)) {
-        cout << "True.\n";
+        cout << "True" << endl;
     } else {
-        cout << "False.\n";
+        cout << "False" << endl;
     }
 
     return 0;

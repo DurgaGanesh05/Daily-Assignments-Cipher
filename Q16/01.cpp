@@ -2,7 +2,7 @@
 using namespace std;
 
 bool isValid(string s) {
-    
+    string opened;
     for (char c : s) {
         if (c == '(' || c == '[' || c == '{') {
             opened += c;

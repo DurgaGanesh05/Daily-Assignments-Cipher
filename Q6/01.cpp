@@ -23,8 +23,8 @@ int main(){
         }
     }
 
-    if(flag) cout<<"true";
-    else cout<<"false";
+    if(flag) cout<<"True";
+    else cout<<"False";
         
     return 0;
 }

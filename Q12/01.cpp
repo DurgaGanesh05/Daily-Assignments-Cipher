@@ -25,6 +25,6 @@ int main(){
         v.pop_back();
     }
 
-    cout << "The " << k << " fastest time is: " << v.front() << endl;
+    cout << v.front() << endl;
     return 0;
 }
